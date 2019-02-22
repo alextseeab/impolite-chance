@@ -37,9 +37,9 @@ public class VertxMongoVerticle extends AbstractVerticle {
     	JsonObject dbConfig = new JsonObject();
     	
     	dbConfig.put("connection_string", "mongodb://localhost:27017/projectsdb");
-//    	dbConfig.put("username", "admin");
-//    	dbConfig.put("password", "nOah18VRoc2BxKbx");
-//    	dbConfig.put("authSource", "projectsdb");
+    	dbConfig.put("username", "admin");
+    	dbConfig.put("password", "nOah18VRoc2BxKbx");
+    	dbConfig.put("authSource", "admin");
     	dbConfig.put("useObjectId", true);
     	
     	mongoClient = MongoClient.createShared(vertx, dbConfig);
