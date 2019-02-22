@@ -10,7 +10,7 @@
   <properties>
     <vertx.version>3.5.4.redhat-00002</vertx.version>
     <vertx-maven-plugin.version>1.0.18</vertx-maven-plugin.version>
-    <vertx.verticle>io.openshift.booster.HttpApplication</vertx.verticle>
+    <vertx.verticle>io.openshift.booster.VertxMongoVerticle</vertx.verticle>
     <fabric8-maven-plugin.version>3.5.42</fabric8-maven-plugin.version>
     <arquillian-cube.version>1.18.2</arquillian-cube.version>
     <maven.compiler.source>1.8</maven.compiler.source>
